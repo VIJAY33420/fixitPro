@@ -53,6 +53,48 @@ FixitPro eliminates these problems by offering:
 
 ---
 
+## 📁 Folder Structure
+
+```bash
+fixitPro/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   ├── layout/
+│   │   │   └── ui/
+│   │   ├── pages/
+│   │   ├── routes/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── constants/
+│   │   ├── styles/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── .env
+│   └── package.json
+├── server/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── models/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── middlewares/
+│   │   ├── utils/
+│   │   ├── app.js
+│   │   └── index.js
+│   ├── .env
+│   └── package.json
+├── docs/
+├── .gitignore
+├── README.md
+└── package.json
+```
+
 ## 🎯 Goal
 
 To build a **reliable and user-friendly repair ecosystem** where customers can trust the service they receive without worrying about quality, pricing, or accountability.
@@ -76,7 +118,6 @@ Contributions are welcome! Feel free to fork the repo and submit pull requests.
 
 ## 📬 Connect with Me
 
-* GitHub: https://github.com/VIJAY33420
 * LinkedIn: https://www.linkedin.com/in/vijay-diwaniya-7b36aa3a4/
 
 ---
