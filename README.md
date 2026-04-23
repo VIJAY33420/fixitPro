@@ -76,7 +76,6 @@ Contributions are welcome! Feel free to fork the repo and submit pull requests.
 
 ## 📬 Connect with Me
 
-* GitHub: https://github.com/VIJAY33420
 * LinkedIn: https://www.linkedin.com/in/vijay-diwaniya-7b36aa3a4/
 
 ---
