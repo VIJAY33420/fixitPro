@@ -53,84 +53,47 @@ FixitPro eliminates these problems by offering:
 
 ---
 
-📁 FixitPro Folder Structure
+## 📁 Folder Structure
 
+```bash
 fixitPro/
-│
-├── client/                      # Frontend (React + Tailwind)
+├── client/
 │   ├── public/
 │   ├── src/
-│   │   ├── assets/              # Images, icons, logos
-│   │   ├── components/          # Reusable UI components
-│   │   │   ├── common/          # Buttons, Inputs, Cards
-│   │   │   ├── layout/          # Navbar, Footer
-│   │   │   └── ui/              # Modals, Loaders
-│   │   │
-│   │   ├── pages/               # App pages
-│   │   │   ├── Home.jsx
-│   │   │   ├── Services.jsx
-│   │   │   ├── BookRepair.jsx
-│   │   │   ├── Technicians.jsx
-│   │   │   ├── TechnicianProfile.jsx
-│   │   │   ├── Tracking.jsx
-│   │   │   ├── Reviews.jsx
-│   │   │   └── Dashboard.jsx
-│   │   │
-│   │   ├── routes/              # React Router setup
-│   │   ├── context/             # Global state (Auth, App)
-│   │   ├── hooks/               # Custom hooks
-│   │   ├── services/            # API calls (axios)
-│   │   ├── utils/               # Helper functions
-│   │   ├── constants/           # Static data
-│   │   ├── styles/              # Global styles
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   ├── layout/
+│   │   │   └── ui/
+│   │   ├── pages/
+│   │   ├── routes/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── constants/
+│   │   ├── styles/
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   │
 │   ├── .env
 │   └── package.json
-│
-├── server/                      # Backend (Node + Express)
+├── server/
 │   ├── src/
 │   │   ├── config/
-│   │   │   └── db.js            # MongoDB connection
-│   │   │
-│   │   ├── models/              # Mongoose models
-│   │   │   ├── user.model.js
-│   │   │   ├── technician.model.js
-│   │   │   ├── booking.model.js
-│   │   │   └── review.model.js
-│   │   │
-│   │   ├── controllers/         # Business logic
-│   │   │   ├── auth.controller.js
-│   │   │   ├── technician.controller.js
-│   │   │   ├── booking.controller.js
-│   │   │   └── review.controller.js
-│   │   │
-│   │   ├── routes/              # API routes
-│   │   │   ├── auth.routes.js
-│   │   │   ├── technician.routes.js
-│   │   │   ├── booking.routes.js
-│   │   │   └── review.routes.js
-│   │   │
-│   │   ├── middlewares/         # Auth, error handling
-│   │   │   ├── auth.middleware.js
-│   │   │   └── error.middleware.js
-│   │   │
-│   │   ├── utils/               # Helper functions
-│   │   ├── app.js               # Express app config
-│   │   └── index.js             # Server entry point
-│   │
+│   │   ├── models/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── middlewares/
+│   │   ├── utils/
+│   │   ├── app.js
+│   │   └── index.js
 │   ├── .env
 │   └── package.json
-│
-├── docs/                        # Documentation
-│   ├── api-docs.md
-│   └── wireframes.fig
-│
+├── docs/
 ├── .gitignore
 ├── README.md
-└── package.json                 # (optional root config)
-
+└── package.json
+```
 
 ## 🎯 Goal
 
